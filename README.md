@@ -20,5 +20,7 @@ Core Features
 4. Auto-Scrolling: Ensuring the chat window automatically scrolls to the bottom as new messages appear.
 5. Clean UI/UX: Features a sleek sidebar, suggested prompts, and a user-friendly message box.
 
+
 Why Build It?
+
 This project is an excellent way for developers to learn Asynchronous JavaScript, API handling, and Modern UI Design.
