@@ -1,0 +1,119 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemini AI ChatBot</title>
+    <link rel="icon" type="image/png" href="gemini.svg">
+
+
+    <!-- Google Material Symbols -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" />
+
+    <!-- Your CSS File -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="container">
+        <!-- App Header -->
+        <header class="app-header">
+            <h1 class="heading">Hello, there</h1>
+            <h2 class="sub-heading">How can I help you?</h2>
+        </header>
+
+        <!-- Suggestions List -->
+        <ul class="suggestions">
+            <li class="suggestions-item">
+                <p class="text">Design a home office setup for remote work under $400.</p>
+                <span class="material-symbols-rounded">draw</span>
+            </li>
+
+            <li class="suggestions-item">
+                <p class="text">How can I level up my web development expertise in 2026?</p>
+                <span class="material-symbols-rounded">lightbulb</span>
+            </li>
+
+            <li class="suggestions-item">
+                <p class="text">Suggest useful tools for debugging Python code.</p>
+                <span class="material-symbols-rounded">explore</span>
+            </li>
+
+            <li class="suggestions-item">
+                <p class="text">Create a React component for a simple todo app.</p>
+                <span class="material-symbols-rounded">code</span>
+            </li>
+        </ul>
+
+        <!-- Chats Container -->
+        <div class="chats-container"></div>
+
+        <!-- Prompt Container -->
+        <div class="prompt-container">
+            <div class="prompt-wrapper">
+                
+                <form action="#" class="prompt-form">
+                    <input type="text" 
+                        placeholder="Ask Gemini" 
+                        class="prompt-input" 
+                        required>
+                <div class="prompt-actions">
+                    <!-- File Upload Wrapper -->
+                    <div class="file-upload-wrapper">
+                        <img src="#" class="file-preview" alt="File preview">
+                        <input type="file" accept="image/*, .pdf, .txt, .csv" id="file-input" hidden>
+                          <button type="button" 
+                        id="file-icon" 
+                        class="material-symbols-rounded">description
+                    </button>
+                        <button type="button" 
+                        id="add-file-btn" 
+                        class="material-symbols-rounded">
+                        attach_file
+                    </button>
+                    </div>
+                    <button type="button" 
+                        id="cancle-file-btn" 
+                        class="material-symbols-rounded">
+                        close
+                    </button>
+
+                     <button type="button"
+                            id="stop-response-btn"
+                            class="material-symbols-rounded"
+                            aria-label="Stop response">
+                            stop_circle
+                        </button>
+
+                    <button type="submit" 
+                        id="send-prompt-btn" 
+                        class="material-symbols-rounded">
+                        arrow_upward
+                    </button>
+                    </div>
+                </form>
+
+                <button id="theme-toggle-btn" 
+                    type="button" 
+                    class="material-symbols-rounded">
+                    light_mode
+                </button>
+
+                <button id="delete-chats-btn" 
+                    type="button" 
+                    class="material-symbols-rounded">
+                    delete
+                </button>
+            </div>
+
+            <p class="disclaimer-text">
+                Gemini can make mistakes, so double-check it.
+            </p>
+        </div>
+    </div>
+</div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+</body>
+</html>
