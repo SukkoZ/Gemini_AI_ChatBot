@@ -16,7 +16,10 @@ The Tech Stack
 
 ## 📸 Screenshot
 
-![Todo App Screenshot](assets/screenshot.png)
+## 📸 Screenshot
+
+![Gemini AI Chatbot Screenshot](Gemini.png)
+
 
 
 
