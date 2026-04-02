@@ -20,6 +20,7 @@ The Tech Stack
 
 
 
+
 Core Features
 1. API Integration: Securely connecting to Google’s Generative AI via an API key.
 2. Real-time Interaction: Displaying user messages instantly and showing a "typing" or "loading" indicator while the AI generates a response.
