@@ -16,8 +16,6 @@ The Tech Stack
 
 ## 📸 Screenshot
 
-## 📸 Screenshot
-
 ![Gemini AI Chatbot Screenshot](Gemini.png)
 
 
