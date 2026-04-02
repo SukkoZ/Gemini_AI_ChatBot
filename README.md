@@ -13,6 +13,13 @@ The Tech Stack
 * CSS3: Focuses on the "Gemini-style" aesthetics. This includes dark mode themes, smooth animations for loading states (shimmer effects), and a responsive layout that works on both mobile and desktop.
 * JavaScript (ES6+): The brain of the application. It handles user input, manages the chat history, and uses the `fetch` API or the official Google Generative AI SDK to communicate with the Gemini backend.
 
+
+## 📸 Screenshot
+
+![Todo App Screenshot](assets/screenshot.png)
+
+
+
 Core Features
 1. API Integration: Securely connecting to Google’s Generative AI via an API key.
 2. Real-time Interaction: Displaying user messages instantly and showing a "typing" or "loading" indicator while the AI generates a response.
